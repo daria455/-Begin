@@ -1,0 +1,6 @@
+A = float(input("Введите число A: "))
+B = float(input("Введите число B: "))
+C = float(input("Введите число C: "))
+print(f"Длина отрезка AC: {abs(C - A)}")
+print(f"Длина отрезка BC: {abs(C - B)}")
+print(f"Сумма длин отрезков AC + BC: {abs(C - A) + abs(C - B)}")
